@@ -1,0 +1,37 @@
+/* Global Presets*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Imported Font : Roboto*/
+
+/* Nav Bar starts*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+/* styling an element using tag name */
+
+/* Nav Bar ends*/
+
+/* Font Style*/
+.body {
+  font-family: "outfit", Roboto;
+}
+/* Font Style*/
